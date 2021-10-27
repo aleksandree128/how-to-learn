@@ -22,6 +22,7 @@
 }
 .header__margin_left-top{
   justify-content: space-between;
+  margin-left: 64px;
 }
 .logo_place_header{
   width: 183px;
@@ -62,9 +63,7 @@
   background: #2f80ed;
   z-index: 1;
 }
-.header__margin_left-top{
-  margin-left: 64px;
-}
+
 .header__link{
 
   text-decoration: none;
@@ -281,8 +280,8 @@
 }
 
 .footer{
-  min-height: 350px ;
-  background-color:#1f1f1f ;
+  min-height: 350px;
+  background-color:#1f1f1f;
 }
 .footer__columns{
   width: 90%;
@@ -316,6 +315,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  list-style: none;
+  text-decoration: none;
 }
 .footer__column-links{
   display: flex;
