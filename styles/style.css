@@ -24,11 +24,11 @@
 
 .logo {
   width: 183px;
-  height: 32px;
   background-size: cover;
 }
 .logo_place_header {
   position: absolute;
+  height: 32px;
   background-image: url("../images/logo_place_header.svg");
   top: 30px;
   left: 64px;
@@ -233,40 +233,22 @@
   position: absolute;
   right: -210px;
   z-index: -3;
+  background-size: cover;
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
   margin: 90px auto 0;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
   color: white;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
   margin: 20px auto 0;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: wrap;
   color: white;
 }
 
 .table_theme_dark {
-  display: flex;
-  width: 1100px;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 auto 90px;
-  flex-direction: row;
-  list-style: none;
+  padding: 0;
 }
 
 .table__cell_theme_dark {
@@ -278,20 +260,16 @@
 
 .table__heading_theme_dark {
   margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
   color: white;
   z-index: 2;
 }
 
 .table__text_theme_dark {
-  line-height: 1.2;
+  padding: 0;
   margin-top: 20px;
-  font-size: 18px;
+  margin-bottom: 0;
   color: white;
   z-index: 2;
-  font-weight: normal;
 }
 
 /*footer*/
@@ -306,22 +284,29 @@
 .footer__columns {
   width: 90%;
   display: flex;
-  justify-content: space-between;
   margin: 60px auto 40px;
+  justify-content: space-between;
   color: white;
+}
+
+.footer__column{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
   margin: 0;
   flex-basis: 711px;
-  flex-direction: column;
+  justify-content: space-between;
 }
+
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
   margin: 0;
+  padding: 0;
 }
+
 .logo_place_footer {
+  height: 35px;
   background-image: url("../images/logo_place_footer.svg");
 }
 
@@ -331,6 +316,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+  justify-content: space-between;
 }
 
 .footer__column-heading {
@@ -344,8 +330,6 @@
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   padding: 0;
 }
