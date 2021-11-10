@@ -6,6 +6,7 @@
     transform: rotate(360deg);
   }
 }
+
 .rotation {
   animation: rotations 20s running linear infinite;
 }
