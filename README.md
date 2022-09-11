@@ -1,7 +1,5 @@
 # Проектная работа: "How to learn". Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на факультете ["Веб-разработчик"](https://praktikum.yandex.ru/web/) 
 
-*Read this in other languages:* [EN](https://github.com/MelnikovAleksei/how-to-learn/blob/master/README.EN.md) 
-
 ## Описание: 
 
 "How to learn" - это типовой однастраничный сайт про методики обучения. Сайт создан по методологии BEM с файловой структурой Nested BEM. 
