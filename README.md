@@ -4,7 +4,6 @@
 
 "How to learn" - это типовой однастраничный сайт про методики обучения. Сайт создан по методологии BEM с файловой структурой Nested BEM. 
 
-[Проектная работа на GitHub Pages](https://melnikovaleksei.github.io/how-to-learn/index) 
 
 ## Функционал:
 
